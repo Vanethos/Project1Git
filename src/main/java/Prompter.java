@@ -17,7 +17,8 @@ public class Prompter {
   }
   
   public void showInitialMessage(Jar jar) {
-  System.out.printf("This jar has %d items%n", jar.getNumberOfItems());
+  //DEBUG
+  //System.out.printf("This jar has %d items%n", jar.getNumberOfItems());
    System.out.printf("How many %s are in the jar? Pick a number between 1 and %d.%n", 
                     jar.getItemName(),
                     jar.getMaxItemsNum()); 
